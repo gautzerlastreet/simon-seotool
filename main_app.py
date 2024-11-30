@@ -12,7 +12,7 @@ page = st.sidebar.selectbox(
 
 # Logique pour charger la page sélectionnée
 if page == "Occurus Rewrite":
-    occurus_rewrite.app()
+    apps.occurus_rewrite.app()
 elif page == "Rankings Google Maps":
     google_maps.app()
 elif page == "Bulk Semantic Analyzer":

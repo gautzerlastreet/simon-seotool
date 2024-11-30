@@ -7,7 +7,7 @@ st.sidebar.title("Navigation")
 # Menu latéral pour choisir une page
 page = st.sidebar.selectbox(
     "Choisissez une page",
-    ["SOccurus Rewrite"]
+    ["Occurus Rewrite"]
 )
 
 # Logique pour charger la page sélectionnée

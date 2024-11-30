@@ -1,6 +1,8 @@
 import streamlit as st
 from apps.occurus_rewrite import occurus_rewrite
 from apps.similarity_refine import similarity_refine
+from apps.paa_checker import paa_checker
+
 
 
 st.set_page_config(
@@ -15,7 +17,7 @@ st.sidebar.title("More tools, More Fun.")
 # Menu latéral pour choisir une page
 page = st.sidebar.selectbox(
     "Choisissez une application",
-    ["Occurus Rewrite", "Similarity Refine"]
+    ["Occurus Rewrite", "Similarity Refine", " PAA Checker"]
 )
 
 # Logique pour charger la page sélectionnée
@@ -23,3 +25,5 @@ if page == "Similarity Refine":
     similarity_refine.main()
 elif page == "Occurus Rewrite":
     occurus_rewrite.main()
+elif page == "PAA Checker":
+    paa_checker.main()

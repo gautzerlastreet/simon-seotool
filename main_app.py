@@ -1,5 +1,5 @@
 import streamlit as st
-from apps import occurus_rewrite
+from apps.occurus_rewrite import occurus_rewrite
 
 # Titre principal de l'application
 st.sidebar.title("Navigation")

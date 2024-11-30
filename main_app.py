@@ -13,6 +13,6 @@ page = st.sidebar.selectbox(
 
 # Logique pour charger la page sélectionnée
 if page == "Similarity Refine":
-    similarity_refine.app()
+    similarity_refine.main()
 elif page == "Occurus Rewrite":
     occurus_rewrite.app()

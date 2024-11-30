@@ -1,7 +1,7 @@
 import streamlit as st
-from apps.occurus_rewrite import occurus_rewrite
-from apps.similarity_refine import similarity_refine
-from apps.paa_checker import paa_checker
+from apps import occurus_rewrite
+from apps import similarity_refine
+from apps import paa_checker
 
 
 

@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import re
 
+def main():
+    st.title("Similarity Refine")
+
 # Fonction pour filtrer et formater les mots-clés
 def parse_filter_format_keywords(list_str, threshold):
     if not isinstance(list_str, str):

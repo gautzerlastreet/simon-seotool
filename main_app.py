@@ -22,4 +22,4 @@ page = st.sidebar.selectbox(
 if page == "Similarity Refine":
     similarity_refine.main()
 elif page == "Occurus Rewrite":
-    occurus_rewrite.app()
+    occurus_rewrite.main()

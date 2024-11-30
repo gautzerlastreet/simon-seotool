@@ -136,5 +136,5 @@ def main():
                     mime="application/vnd.ms-excel",
                 )
 
-if __name__ == "similatiry_refine":
+if __name__ == "similarity_refine":
     main()

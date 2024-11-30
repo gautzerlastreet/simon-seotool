@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 import re
 
-st.set_page_config(
-    layout="wide",
-    page_title="Similarity Refine",
-    page_icon="🥥"
-)
-
 # Fonction pour filtrer et formater les mots-clés
 def parse_filter_format_keywords(list_str, threshold):
     if not isinstance(list_str, str):

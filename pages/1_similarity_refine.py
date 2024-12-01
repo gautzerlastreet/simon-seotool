@@ -140,11 +140,6 @@ def about_tab():
     st.markdown("""
     This tool helps you refine and analyze keyword similarities for SEO purposes.
     
-    ## Features
-    - Upload your Excel file.
-    - Filter and format keywords based on similarity thresholds.
-    - Visualize metrics and download the processed data.
-    
     ## How to Use
     1. Upload raw similarity file from app.occurus with keywords and their volumes.          
     2. Set the similarity threshold.

@@ -34,7 +34,7 @@ def parse_filter_format_keywords(list_str, threshold):
     avg_similarity = total_similarity / count if count > 0 else 0
     return filtered_keywords, total_volume, avg_similarity, count
 
-def main():
+def main_tab():
     st.title("Similarity Refine")
 
     uploaded_file = st.file_uploader("Choisissez un fichier")
@@ -135,6 +135,32 @@ def main():
                     file_name=output_file_name,
                     mime="application/vnd.ms-excel",
                 )
+
+def about_tab():
+    st.markdown("""
+    # About Similarity Refine
+    This tool helps you refine and analyze keyword similarities for SEO purposes.
+    
+    ## Features
+    - Upload an Excel file with keywords and their volumes.
+    - Filter and format keywords based on similarity thresholds.
+    - Visualize metrics and download the processed data.
+    
+    ## How to Use
+    1. Upload your Excel file.
+    2. Set the similarity threshold.
+    3. Analyze and download the results.
+    
+    ## Author
+    Developed by Simon.
+    """)
+
+def main():
+    tabs = st.tabs(["Main", "About"])
+    with tabs[0]:
+        main_tab()
+    with tabs[1]:
+        about_tab()
 
 if __name__ == "__main__":
     main()

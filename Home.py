@@ -1,6 +1,4 @@
 import streamlit as st
-my_var = "This a variable from Home.py"
-
 
 # Configuration de la page Streamlit
 st.set_page_config(

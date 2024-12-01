@@ -7,6 +7,9 @@ st.set_page_config(
     page_icon="📌"
 )
 
+# Streamlit UI
+st.title("SEO Tools Box")
+
         # Ajouter l'icône Twitter et le texte en bas à gauche
 st.sidebar.markdown(
     """

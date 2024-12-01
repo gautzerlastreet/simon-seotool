@@ -68,7 +68,8 @@ if uploaded_file:
         # Step 2: Input regex for "Marque"
         col1, col2 = st.columns(2)
         with col1:
-            regex_pattern = st.text_input("Enter regex pattern for 'Marque'", "regex-friendly .*")
+            default_regex = re.escape(df['Keyword'].iloc[0].split('.')[0]) if not df['Keyword'].empty else "..."
+            regex_pattern = st.text_input("Enter regex pattern for 'Marque'", default_regex)
             selected_category = st.selectbox("Select Category", ["All"] + ["Top 1", "Position 2-3", "Position 4-5", "Position 6-10", "Position 11-20", "21+"])
             keyword = st.text_input("Enter Keyword (regex supported)")
 

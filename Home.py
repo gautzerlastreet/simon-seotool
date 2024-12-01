@@ -12,7 +12,7 @@ st.sidebar.markdown(
     """
     <div style="position: fixed; bottom: 10px; left: 20px;">
         <a href="https://github.com/Psimon8" target="_blank" style="text-decoration: none;">
-            <img src="https://github.githubassets.com/favicons/favicon.png" 
+            <img src="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" 
                  alt="GitHub Simon le Coz" style="width:20px; vertical-align: middle; margin-right: 5px;">
             <span style="color: white; font-size: 14px;"></span>
         </a>    

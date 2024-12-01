@@ -79,7 +79,7 @@ def calculate_occurrence_score(revised_text, words_with_occurrences):
     return round((actual_count / total_required) * 100, 2) if total_required > 0 else 0
 
 # Interface utilisateur avec Streamlit
-st.title('Création de textes SEO avec Occurus Rewrite')
+st.title('Occurus Rewrite')
 
 # Ajouter un champ pour la clé secrète OpenAI
 secret_key = st.text_input('Clé Secrète OpenAI', type="password")

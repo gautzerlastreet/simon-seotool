@@ -98,15 +98,6 @@ if uploaded_file:
             hors_marque_data = filtered_data[filtered_data['Marque/Hors Marque'] == 'Hors Marque']
             st.dataframe(hors_marque_data)
 
-        # Add download button
-        csv = filtered_data.to_csv(index=False).encode('utf-8')
-        st.download_button(
-            label="Download data as CSV",
-            data=csv,
-            file_name='processed_data.csv',
-            mime='text/csv',
-        )
-
         # Step 5: Export processed data
         st.download_button(
             label="Download Processed Data",

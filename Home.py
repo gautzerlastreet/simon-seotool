@@ -9,12 +9,13 @@ def main():
     choix = st.sidebar.radio("Navigation", ["Home", "Similarity Refine", "PAA Extractor"])
     if choix == "Home":
         st.subheader("subheader")
-    if choix == "Similarity Refine":
+    elif choix == "Similarity Refine":
         st.subheader("subheader SR")
-    if choix == "PAA Extractor":
+    elif choix == "PAA Extractor":
         st.subheader("subheader PA")
-                   
+    else:
+        st.subheader("Please select an option from the sidebar")
         
 
 if __name__ == '__main__':
-  main
+    main()

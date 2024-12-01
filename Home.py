@@ -1,5 +1,5 @@
 import streamlit as st
-
+my_var = "This a variable from Home.py"
 
 st.set_page_config(
     layout="wide",
@@ -11,6 +11,9 @@ st.set_page_config(
 def main():
     st.header("SEO Tools Box")
     st.title("Simon's Tools Box")
+    st.write(my_var)
    
+    choix = st.sidebar.radio("Navigation", ["Home", "Similarity Refine", "PAA Extractor"])
+
 if __name__ == '__main__':
   main

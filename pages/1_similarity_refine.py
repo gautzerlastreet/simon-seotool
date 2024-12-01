@@ -8,8 +8,6 @@ st.set_page_config(
     page_icon="🥥"
 )
 
-st.subheader("Similarity Refine")
-
 # Fonction pour filtrer et formater les mots-clés
 def parse_filter_format_keywords(list_str, threshold):
     if not isinstance(list_str, str):

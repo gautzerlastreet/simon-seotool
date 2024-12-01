@@ -12,7 +12,6 @@ st.set_page_config(
 
 def main():
     st.header("SEO Tools Box")
-    st.title("Simon's Tools Box")       
-
+    
 if __name__ == '__main__':
     main()

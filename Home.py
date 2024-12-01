@@ -7,12 +7,6 @@ st.set_page_config(
     page_icon="📌"
 )
 
-# Ajouter le menu latéral (sidemenu)
-menu = st.sidebar.radio(
-    "Navigation",
-    ["Home", "similarity refine", "paa extractor", "occurus rewrite", "semrush refine"]
-)
-
 # Ajouter l'icône Twitter et le texte en bas à gauche
 st.sidebar.markdown(
     """

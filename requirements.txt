@@ -5,3 +5,4 @@ streamlit
 xlsxwriter
 altair
 lxml
+io

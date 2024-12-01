@@ -1,6 +1,4 @@
 import streamlit as st
-my_var = "This a variable from Home.py"
-
 
 # Configuration de la page Streamlit
 st.set_page_config(
@@ -12,6 +10,6 @@ st.set_page_config(
 
 def main():
     st.header("SEO Tools Box")
-    
+
 if __name__ == '__main__':
     main()

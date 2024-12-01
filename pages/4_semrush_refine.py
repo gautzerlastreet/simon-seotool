@@ -120,6 +120,11 @@ st.sidebar.markdown(
                  alt="Twitter" style="width:20px; vertical-align: middle; margin-right: 5px;">
             <span style="color: white; font-size: 14px;">@lekoz_simon</span>
         </a>
+        <a href="https://www.linkedin.com/in/simon-le-coz/" target="_blank" style="text-decoration: none;">
+            <img src="https://static.licdn.com/aero-v1/sc/h/8s162nmbcnfkg7a0k8nq9wwqo" 
+                 alt="LinkedIn" style="width:20px; vertical-align: middle; margin-right: 5px;">
+            <span style="color: white; font-size: 14px;">LinkedIn</span>
+        </a>
     </div>
     """,
     unsafe_allow_html=True

@@ -56,7 +56,7 @@ def export_to_excel(df, summary):
     return output.getvalue()
 
 # Streamlit UI
-st.title("Analyse Marque / Hors Marque")
+st.title("Semrush Refine")
 
 # Step 1: Upload XLSX file
 uploaded_file = st.file_uploader("Upload your XLSX file", type=["xlsx"])

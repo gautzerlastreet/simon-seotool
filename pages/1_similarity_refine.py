@@ -2,15 +2,13 @@ import streamlit as st
 import pandas as pd
 import re
 
-st.subheader("Similarity Refine")
-
-
-
 st.set_page_config(
     layout="wide",
     page_title="Similarity Refine",
     page_icon="🥥"
 )
+
+st.subheader("Similarity Refine")
 
 # Fonction pour filtrer et formater les mots-clés
 def parse_filter_format_keywords(list_str, threshold):

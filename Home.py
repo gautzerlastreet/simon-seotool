@@ -14,6 +14,14 @@ def main():
     st.write(my_var)
    
     choix = st.sidebar.radio("Navigation", ["Home", "Similarity Refine", "PAA Extractor"])
+    if choix == "Home":
+        st.subheader("subheader")
+    if choix == "Similarity Refine":
+        st.subheader("subheader SR")
+    if choix == "PAA Extractor":
+        st.subheader("subheader PA")
+                   
+        
 
 if __name__ == '__main__':
   main

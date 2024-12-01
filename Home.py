@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="📌"
 )
 
-# Ajouter l'icône Twitter et le texte en bas à gauche
+        # Ajouter l'icône Twitter et le texte en bas à gauche
 st.sidebar.markdown(
     """
     <div style="position: fixed; bottom: 10px; left: 20px;">
@@ -15,6 +15,11 @@ st.sidebar.markdown(
             <img src="https://abs.twimg.com/favicons/twitter.3.ico" 
                  alt="Twitter" style="width:20px; vertical-align: middle; margin-right: 5px;">
             <span style="color: white; font-size: 14px;">@lekoz_simon</span>
+        </a>
+        <a href="https://www.linkedin.com/in/simon-le-coz/" target="_blank" style="text-decoration: none;">
+            <img src="https://static.licdn.com/aero-v1/sc/h/8s162nmbcnfkg7a0k8nq9wwqo" 
+                 alt="LinkedIn" style="width:20px; vertical-align: middle; margin-right: 5px;">
+            <span style="color: white; font-size: 14px;">LinkedIn</span>
         </a>
     </div>
     """,

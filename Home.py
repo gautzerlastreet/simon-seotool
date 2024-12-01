@@ -9,7 +9,7 @@ st.set_page_config(
 
 
 def main():
-    st.header("SEO Tools Box")
+    st.header("📌 SEO Tools Box")
     
 if __name__ == '__main__':
     main()

@@ -180,7 +180,7 @@ if uploaded_file:
     else:
         st.error("Erreur : Le fichier XLSX doit contenir les colonnes 'keyword', 'Text or not', et 'Occurrences'.")
 else:
-    st.write("Veuillez télécharger un fichier XLSX pour procéder.")
+    st.write("Veuillez télécharger un fichier XLSX pour procéder. Utilisez ce template: https://docs.google.com/spreadsheets/d/1EyC2AQYZ0DTqK--l_-KI-M3PNgyEPXKi0umS2h-MIQ4/edit?gid=0#gid=0")
 
 
         # Ajouter l'icône Twitter et le texte en bas à gauche
